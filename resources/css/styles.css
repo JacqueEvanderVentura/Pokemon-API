@@ -5,3 +5,7 @@ header {
     height: 15vh;
     margin: 0;
 }
+
+input::placeholder {
+    font-style: italic;
+}
