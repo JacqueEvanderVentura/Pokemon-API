@@ -11,15 +11,39 @@
     <title>Pokémon API</title>
 </head>
 
-<body>
+<body id="body">
     <header></header>
     <section class="text-center">
         <br>
 
         <div id="inputAndDataList">
-            <input id="inputPokemons" list="dataListPokemons" placeholder="Choose any pokémon...">
-            <datalist id="dataListPokemons"></datalist>
+            <form autocomplete="off">
+                <input id="inputPokemons" list="dataListPokemons" placeholder="Choose any pokémon...">
+                <datalist id="dataListPokemons"></datalist>
+                <button id="button">Choose</button>
+            </form>
         </div>
+        <br>
+
+        <table class="mx-auto">
+            <tr>
+                <th colspan="3" id="thPokename">POKENAME</th>
+            </tr>
+            <tr>
+                <td colspan="2" id="tdSprite">SPRITE</td>
+
+
+            </tr>
+            <tr>
+                <td>Type</td>
+                <td id="tdType">???</td>
+            </tr>
+            <tr>
+                <td>Weight</td>
+                <td id="tdWeight">???</td>
+            </tr>
+        </table>
+
 
 
     </section>

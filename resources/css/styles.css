@@ -9,3 +9,17 @@ header {
 input::placeholder {
     font-style: italic;
 }
+
+table,
+th,
+td {
+    border: 0.09rem solid #000;
+    padding: 1vw;
+    background-color: #FFF;
+}
+
+.pokeContainer {
+    width: 10vw;
+    height: 20vw;
+    background-color: #ccc;
+}
