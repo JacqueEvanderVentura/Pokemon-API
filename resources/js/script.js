@@ -30,7 +30,7 @@ const namePokeContainer = (data) => {
 
 const spritePokeContainer = (data) => {
     const pokeNameFirstLetterUpper = data.name.replace(data.name.charAt(0), data.name.charAt(0).toUpperCase());
-    tdSprite.innerHTML = `<img src="${data.sprites.front_default}" alt="Just a ${pokeNameFirstLetterUpper}">`;
+    tdSprite.innerHTML = `<img src="${data.sprites.front_default}" alt="Just a ${pokeNameFirstLetterUpper}" width ="300vw">`;
 };
 
 const typePokeContainer = (data) => {

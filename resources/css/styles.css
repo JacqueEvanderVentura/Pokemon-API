@@ -1,9 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+body {
+    background: url("/resources/imgs/backgrounds/bg-1.png");
+}
+
 header {
-    background: url("/resources/imgs/header/static-header.png") center no-repeat, url("/resources/imgs/header/static-header-clouds.png") center repeat-x;
-    background-size: contain, cover;
+    /* background: url("/resources/imgs/header/static-header.png") center no-repeat, url("/resources/imgs/header/static-header-clouds.png") center repeat-x;
+    background-size: contain, cover; */
+    background: url("/resources/imgs/header/static-header.png") center;
+    background-size: contain;
     background-repeat: no-repeat;
     height: 15vh;
     margin: 0;
+}
+
+input {
+    padding-left: .5vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 input::placeholder {
@@ -13,9 +25,43 @@ input::placeholder {
 table,
 th,
 td {
+    font-family: 'Noto Sans JP', sans-serif;
     border: 0.09rem solid #000;
     padding: 1vw;
     background-color: #FFF;
+}
+
+th:first-of-type {
+    font-size: 1.5rem;
+}
+
+th {
+    font-weight: 900;
+}
+
+td {
+    font-weight: 550;
+}
+
+button {
+    border-radius: 0.2rem;
+    background-color: #4CAF50;
+    color: #FFF;
+    border: 0px solid;
+    width: fit-content;
+    padding: .5vw;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button:hover {
+    background-color: #FFF;
+    color: #000;
+    transition: .5s;
+}
+
+.poke-container {
+    overflow: auto;
 }
 
 .pokeContainer {
