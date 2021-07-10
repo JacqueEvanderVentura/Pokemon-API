@@ -1,0 +1,7 @@
+header {
+    background: url("/resources/imgs/header/static-header.png") center no-repeat, url("/resources/imgs/header/static-header-clouds.png") center repeat-x;
+    background-size: contain, cover;
+    background-repeat: no-repeat;
+    height: 15vh;
+    margin: 0;
+}
